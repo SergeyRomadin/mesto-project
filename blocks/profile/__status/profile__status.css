@@ -1,8 +1,7 @@
-.footer__copyright{
-  color: #545454;
+.profile__status{
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  padding-top: 16px;
   margin: 0;
-  padding: 0;
 }
