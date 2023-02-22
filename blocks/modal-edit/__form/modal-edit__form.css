@@ -1,0 +1,16 @@
+.modal-edit__form{
+  position: relative;
+  background-color: #fff;
+  max-width: 430px;
+  max-height: 330px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 358px;
+  padding: 34px 36px 37px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 400px) {
+  .modal-edit__form{
+    padding: 25px 22px 25px;
+  }
+}

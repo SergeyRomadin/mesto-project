@@ -22,8 +22,14 @@
 @import url("../blocks/gallery/__like-button/gallery__like-button.css");
 @import url("../blocks/gallery/__list/gallery__list.css");
 @import url("../blocks/gallery/__title/gallery__title.css");
-
-@import url("../blocks/");
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
+@import url("../blocks/modal-edit/__close-button-icon/modal-edit__close-button-icon.css");
+@import url("../blocks/modal-edit/__close-button/modal-edit__close-button.css");
+@import url("../blocks/modal-edit/__form-title/modal-edit__form-title.css");
+@import url("../blocks/modal-edit/__form/modal-edit__form.css");
+@import url("../blocks/modal-edit/__input/modal-edit__input.css");
+@import url("../blocks/modal-edit/__save-button/modal-edit__save-button.css");
+@import url("../blocks/modal-edit/modal-edit.css");
+@import url("../blocks/modal-edit/_open/modal-edit_open.css");
 

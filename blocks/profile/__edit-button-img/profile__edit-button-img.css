@@ -3,3 +3,10 @@
   height: 10px;
   padding: 7px;
 }
+@media screen and (max-width: 678px) {
+  .profile__edit-button-img{
+    width: 7.5px;
+    height: 7.5px;
+    padding: 5.25px;
+  }
+}

@@ -3,6 +3,14 @@
   height: 33px;
   padding-bottom: 41px;
 }
-@media screen and (max-width: 320px) {
-
+@media screen and (max-width: 1024px) {
+  .logo{
+    padding-left: 27px;
+  }
+}
+@media screen and (max-width: 678px) {
+  .logo{
+    width: 104px;
+    height: 24px;
+  }
 }

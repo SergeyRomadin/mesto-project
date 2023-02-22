@@ -6,4 +6,8 @@
   margin: 0;
   font-size: 0;
   height: min-content;
+  cursor: pointer;
+}
+.profile__edit-button:hover{
+  opacity: .6;
 }

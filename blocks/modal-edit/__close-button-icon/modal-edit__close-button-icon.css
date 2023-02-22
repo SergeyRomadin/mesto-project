@@ -1,0 +1,11 @@
+.modal-edit__close-button-icon{
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (max-width: 400px) {
+  .modal-edit__close-button-icon{
+    width: 20px;
+    height: 20px;
+  }
+}
