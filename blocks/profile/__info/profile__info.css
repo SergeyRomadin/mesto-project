@@ -2,6 +2,8 @@
   padding-left: 30px;
   display: flex;
   flex-direction: column;
+  max-width: 80%;
+  overflow: hidden;
 }
 @media screen and (max-width: 678px) {
   .profile__info{
