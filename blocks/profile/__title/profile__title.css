@@ -9,10 +9,11 @@
   white-space: nowrap;
   overflow: hidden;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 790px) {
   .profile__title {
     font-size: 27px;
     line-height: 33px;
+    max-width: 250px;
   }
 }
 @media screen and (max-width: 321px) {
