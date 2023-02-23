@@ -1,0 +1,18 @@
+.profile-edit-form {
+  position: relative;
+  background-color: #fff;
+  min-width: 430px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 34px 36px 37px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+}
+@media screen and (max-width: 500px) {
+  .profile-edit-form {
+    box-sizing: content-box;
+    padding: 25px 22px 25px;
+    min-width: 238px;
+  }
+}

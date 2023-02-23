@@ -17,23 +17,11 @@
           <div class="profile__info">
             <div class="profile__info-title-container">
               <h1 class="profile__title">Жак-Ив Кусто</h1>
-              <button class="profile__edit-button">
-                <img
-                  src="./images/profile__edit-button-img.svg"
-                  alt="edit-button"
-                  class="profile__edit-button-img"
-                />
-              </button>
+              <button type="button" class="profile__edit-button"></button>
             </div>
             <p class="profile__status">Исследователь океана</p>
           </div>
-          <button class="profile__add-button">
-            <img
-              src="./images/profile__add-button.svg"
-              alt="add-button"
-              class="profile__add-button-img"
-            />
-          </button>
+          <button type="button" class="profile__add-button"></button>
         </section>
         <section class="gallery">
           <ul class="gallery__list">
@@ -44,8 +32,8 @@
                 class="gallery__item-img"
               />
               <div class="gallery__item-info">
-                <p class="gallery__item-title">Карачаевск</p>
-                <button class="gallery__like-button"></button>
+                <h2 class="gallery__item-title">Карачаевск</h2>
+                <button type="button" class="gallery__like-button"></button>
               </div>
             </li>
             <li class="gallery__item">
@@ -56,7 +44,7 @@
               />
               <div class="gallery__item-info">
                 <p class="gallery__item-title">Гора Эльбрус</p>
-                <button class="gallery__like-button"></button>
+                <button type="button" class="gallery__like-button"></button>
               </div>
             </li>
             <li class="gallery__item">
@@ -66,8 +54,8 @@
                 class="gallery__item-img"
               />
               <div class="gallery__item-info">
-                <p class="gallery__item-title">Домбай</p>
-                <button class="gallery__like-button"></button>
+                <h2 class="gallery__item-title">Домбай</h2>
+                <button type="button" class="gallery__like-button"></button>
               </div>
             </li>
             <li class="gallery__item">
@@ -77,8 +65,8 @@
                 class="gallery__item-img"
               />
               <div class="gallery__item-info">
-                <p class="gallery__item-title">Гора Эльбрус</p>
-                <button class="gallery__like-button"></button>
+                <h2 class="gallery__item-title">Гора Эльбрус</h2>
+                <button type="button" class="gallery__like-button"></button>
               </div>
             </li>
             <li class="gallery__item">
@@ -88,8 +76,8 @@
                 class="gallery__item-img"
               />
               <div class="gallery__item-info">
-                <p class="gallery__item-title">Домбай</p>
-                <button class="gallery__like-button"></button>
+                <h2 class="gallery__item-title">Домбай</h2>
+                <button type="button" class="gallery__like-button"></button>
               </div>
             </li>
             <li class="gallery__item">
@@ -99,8 +87,8 @@
                 class="gallery__item-img"
               />
               <div class="gallery__item-info">
-                <p class="gallery__item-title">Карачаево-Черкесия</p>
-                <button class="gallery__like-button"></button>
+                <h2 class="gallery__item-title">Карачаево-Черкесия</h2>
+                <button type="button" class="gallery__like-button"></button>
               </div>
             </li>
           </ul>
@@ -109,32 +97,28 @@
       <footer class="footer">
         <p class="footer__copyright">© 2020 Mesto Russia</p>
       </footer>
-      <div class="modal-edit">
-        <form action="#" method="post" class="modal-edit__form">
-          <h2 class="modal-edit__form-title">Редактировать профиль</h2>
-          <input
-            class="modal-edit__input"
-            type="text"
-            name="name"
-            value="Жак-Ив Кусто"
-          />
-          <input
-            class="modal-edit__input"
-            type="text"
-            name="status"
-            value="Исследователь океана"
-          />
-          <button class="modal-edit__save-button" type="submit">
-            Сохранить
-          </button>
-          <button class="modal-edit__close-button">
-            <img
-              class="modal-edit__close-button-icon"
-              src="./images/modal-edit__close-button-icon.svg"
-              alt="close-icon"
+      <div class="modal-popup modal-popup_opened">
+        <div class="modal-popup__container">
+          <button type="button" class="modal-popup__close-button"></button>
+          <form name="profile-edit-form" class="profile-edit-form">
+            <h2 class="profile-edit-form__title">Редактировать профиль</h2>
+            <input
+              class="profile-edit-form__input"
+              type="text"
+              name="name"
+              value="Жак-Ив Кусто"
             />
-          </button>
-        </form>
+            <input
+              class="profile-edit-form__input"
+              type="text"
+              name="status"
+              value="Исследователь океана"
+            />
+            <button class="profile-edit-form__save-button" type="submit">
+              Сохранить
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   </body>

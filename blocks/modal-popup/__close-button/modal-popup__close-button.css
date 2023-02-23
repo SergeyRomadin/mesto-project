@@ -1,0 +1,47 @@
+.modal-popup__close-button {
+  background-color: transparent;
+  background-image: url(../../../images/modal-popup__close-button-icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  border: none;
+  position: absolute;
+  top: -40px;
+  left: 438px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+}
+.modal-popup__close-button:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 500px) {
+  .modal-popup__close-button {
+    left: 350px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .modal-popup__close-button {
+    left: 262px;
+    top: -36px;
+    width: 20px;
+    height: 20px;
+  }
+}
+/*
+.modal-popup__close-button-icon {
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (max-width: 400px) {
+  .modal-popup__close-button-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+*/

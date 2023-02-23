@@ -1,14 +1,14 @@
-.profile__info{
+.profile__info {
   padding-left: 30px;
   display: flex;
   flex-direction: column;
   max-width: 80%;
-  overflow: hidden;
 }
 @media screen and (max-width: 678px) {
-  .profile__info{
+  .profile__info {
+    max-width: 100%;
     padding-left: 0;
     padding-top: 26px;
-    padding-bottom: 36px;
+    padding-bottom: 32px;
   }
 }

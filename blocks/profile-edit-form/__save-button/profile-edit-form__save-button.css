@@ -1,5 +1,6 @@
-.modal-edit__save-button{
-  margin-top: 18px;
+.profile-edit-form__save-button {
+  padding: 0;
+  margin: 15px 0 0 0;
   height: 50px;
   background-color: #000;
   color: #fff;
@@ -7,14 +8,15 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  box-sizing: border-box;
   text-align: center;
   cursor: pointer;
 }
-.modal-edit__save-button:hover{
-opacity: .8;
+.profile-edit-form__save-button:hover {
+  opacity: 0.8;
 }
 @media screen and (max-width: 400px) {
-  .modal-edit__save-button{
+  .profile-edit-form__save-button {
     height: 46px;
     font-size: 14px;
     line-height: 17px;

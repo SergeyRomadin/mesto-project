@@ -1,0 +1,4 @@
+.modal-popup__container {
+  display: flex;
+  position: relative;
+}

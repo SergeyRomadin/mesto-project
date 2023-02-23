@@ -1,5 +1,5 @@
-.modal-edit{
-  background-color: rgba(0, 0, 0, .5);
+.modal-popup {
+  background-color: rgba(0, 0, 0, 0.5);
   color: #000;
   position: fixed;
   left: 0px;

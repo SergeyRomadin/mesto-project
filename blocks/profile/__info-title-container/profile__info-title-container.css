@@ -1,4 +1,5 @@
-.profile__info-title-container{
+.profile__info-title-container {
   display: flex;
   align-items: baseline;
+  position: relative;
 }
